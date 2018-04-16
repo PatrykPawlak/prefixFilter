@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results version="2">
+    <cppcheck version="1.83"/>
+    <errors>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &amp;#039;inputFile&amp;#039; used instead of size of its data." verbose="Size of pointer &amp;#039;inputFile&amp;#039; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &amp;#039;sizeof(*inputFile)&amp;#039;." sinceDate="16.04.2018">
+            <location file="main.c" line="25"/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &amp;#039;outputFile&amp;#039; used instead of size of its data." verbose="Size of pointer &amp;#039;outputFile&amp;#039; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &amp;#039;sizeof(*outputFile)&amp;#039;." sinceDate="16.04.2018">
+            <location file="main.c" line="29"/>
+        </error>
+        <error id="pointerSize" severity="warning" msg="Size of pointer &amp;#039;prefixesFile&amp;#039; used instead of size of its data." verbose="Size of pointer &amp;#039;prefixesFile&amp;#039; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &amp;#039;sizeof(*prefixesFile)&amp;#039;." sinceDate="16.04.2018">
+            <location file="main.c" line="33"/>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &amp;#039;boolReadEntryArguments&amp;#039; is assigned a value that is never used." verbose="Variable &amp;#039;boolReadEntryArguments&amp;#039; is assigned a value that is never used." sinceDate="16.04.2018">
+            <location file="main.c" line="48"/>
+        </error>
+        <error id="unusedFunction" severity="style" msg="The function &amp;#039;help&amp;#039; is never used." verbose="The function &amp;#039;help&amp;#039; is never used." sinceDate="16.04.2018">
+            <location file="main.c" line="11"/>
+        </error>
+    </errors>
+</results>
