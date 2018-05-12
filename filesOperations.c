@@ -47,7 +47,7 @@ void readInputFile(prefixNode **head, char *fileName) {
 void saveToOutputFile(prefixNode **head, char *fileName) {
     FILE *outputFile = fopen(fileName, "w");
     if(outputFile == NULL) {
-        printf("Nie udalo sie otworzyc pliku: %s", fileName);
+        printf("Nie udalo sie otworzyc pliku: %s do zapisu.", fileName);
         deleteList(*&head);
         exit(0);
     } else {
@@ -66,6 +66,6 @@ void saveToOutputFile(prefixNode **head, char *fileName) {
             tmp = tmp->next;
         }
         fclose(outputFile);
-        printf("Zakonczono zadanie pomyslnie!\n");
+        printf("Zakonczono zapisywanie do pliku pomyslnie!\n");
     }
 }

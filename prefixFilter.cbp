@@ -37,6 +37,10 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="entryArgsOperations.h" />
+		<Unit filename="filesOperations.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="filesOperations.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
