@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="17848133">
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:1321:valueFlowBeforeCondition bailout: variable i used in loop" verbose="valueflow.cpp:1321:valueFlowBeforeCondition bailout: variable i used in loop">
+            <location file0="C:\GitKraken\prefixFilter\otherFunctions.c" file="C:\GitKraken\prefixFilter\otherFunctions.c" line="18"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:1623:valueFlowForward bailout: variable i valueFlowForward, assignment in condition" verbose="valueflow.cpp:1623:valueFlowForward bailout: variable i valueFlowForward, assignment in condition">
+            <location file0="C:\GitKraken\prefixFilter\otherFunctions.c" file="C:\GitKraken\prefixFilter\otherFunctions.c" line="18"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:1623:valueFlowForward bailout: variable i valueFlowForward, assignment in condition" verbose="valueflow.cpp:1623:valueFlowForward bailout: variable i valueFlowForward, assignment in condition">
+            <location file0="C:\GitKraken\prefixFilter\otherFunctions.c" file="C:\GitKraken\prefixFilter\otherFunctions.c" line="34"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:1836:valueFlowForward bailout: variable tmpPrefixNode is assigned in conditional code" verbose="valueflow.cpp:1836:valueFlowForward bailout: variable tmpPrefixNode is assigned in conditional code">
+            <location file0="C:\GitKraken\prefixFilter\otherFunctions.c" file="C:\GitKraken\prefixFilter\otherFunctions.c" line="58"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="displayHelp" lineNumber="3"/>
+    <functiondecl functionName="checkFileExt" lineNumber="12"/>
+    <functiondecl functionName="checkPrefix" lineNumber="29"/>
+    <functiondecl functionName="checkBuffer" lineNumber="45"/>
+    <functiondecl functionName="deleteList" lineNumber="56"/>
+    <functioncall functionName="c"/>
+    <functioncall functionName="exit"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="isalpha"/>
+    <functioncall functionName="malloc"/>
+    <functioncall functionName="next"/>
+    <functioncall functionName="pattern"/>
+    <functioncall functionName="prefix"/>
+    <functioncall functionName="puts"/>
+    <functioncall functionName="strcpy"/>
+    <functioncall functionName="strlen"/>
+    <functioncall functionName="tmpPrefixNode"/>
+    <functioncall functionName="toCheck"/>
+    <functioncall functionName="tolower"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="word"/>
+    <functioncall functionName="wordListHead"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="4142510786">
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:3219:valueFlowFunctionReturn bailout: function return; nontrivial function body" verbose="valueflow.cpp:3219:valueFlowFunctionReturn bailout: function return; nontrivial function body">
+            <location file0="C:\GitKraken\prefixFilter\wordsOperations.c" file="C:\GitKraken\prefixFilter\wordsOperations.c" line="3"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:3219:valueFlowFunctionReturn bailout: function return; nontrivial function body" verbose="valueflow.cpp:3219:valueFlowFunctionReturn bailout: function return; nontrivial function body">
+            <location file0="C:\GitKraken\prefixFilter\wordsOperations.c" file="C:\GitKraken\prefixFilter\wordsOperations.h" line="6"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:2012:valueFlowForward bailout: assignment of tmp" verbose="valueflow.cpp:2012:valueFlowForward bailout: assignment of tmp">
+            <location file0="C:\GitKraken\prefixFilter\wordsOperations.c" file="C:\GitKraken\prefixFilter\wordsOperations.c" line="20"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="constructWordNode" lineNumber="3"/>
+    <functiondecl functionName="addWordWithSort" lineNumber="12"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="char"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="malloc"/>
+    <functioncall functionName="next"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="strcmp"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="word"/>
+  </FileInfo>
+</analyzerinfo>

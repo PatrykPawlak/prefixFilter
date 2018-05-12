@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="829033045">
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:3219:valueFlowFunctionReturn bailout: function return; nontrivial function body" verbose="valueflow.cpp:3219:valueFlowFunctionReturn bailout: function return; nontrivial function body">
+            <location file0="C:\GitKraken\prefixFilter\prefixesOperations.c" file="C:\GitKraken\prefixFilter\prefixesOperations.c" line="3"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:3219:valueFlowFunctionReturn bailout: function return; nontrivial function body" verbose="valueflow.cpp:3219:valueFlowFunctionReturn bailout: function return; nontrivial function body">
+            <location file0="C:\GitKraken\prefixFilter\prefixesOperations.c" file="C:\GitKraken\prefixFilter\prefixesOperations.h" line="6"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:2012:valueFlowForward bailout: assignment of tmp" verbose="valueflow.cpp:2012:valueFlowForward bailout: assignment of tmp">
+            <location file0="C:\GitKraken\prefixFilter\prefixesOperations.c" file="C:\GitKraken\prefixFilter\prefixesOperations.c" line="21"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="constructPrefixNode" lineNumber="3"/>
+    <functiondecl functionName="addPrefixWithSort" lineNumber="13"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="char"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="malloc"/>
+    <functioncall functionName="next"/>
+    <functioncall functionName="prefix"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="strcmp"/>
+    <functioncall functionName="while"/>
+  </FileInfo>
+</analyzerinfo>

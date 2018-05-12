@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="781439101">
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:3219:valueFlowFunctionReturn bailout: function return; nontrivial function body" verbose="valueflow.cpp:3219:valueFlowFunctionReturn bailout: function return; nontrivial function body">
+            <location file0="C:\GitKraken\prefixFilter\entryArgs.c" file="C:\GitKraken\prefixFilter\entryArgs.c" line="18"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:3219:valueFlowFunctionReturn bailout: function return; nontrivial function body" verbose="valueflow.cpp:3219:valueFlowFunctionReturn bailout: function return; nontrivial function body">
+            <location file0="C:\GitKraken\prefixFilter\entryArgs.c" file="C:\GitKraken\prefixFilter\entryArgs.c" line="6"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:1085:valueFlowReverse bailout: assignment of newEntryArgs" verbose="valueflow.cpp:1085:valueFlowReverse bailout: assignment of newEntryArgs">
+            <location file0="C:\GitKraken\prefixFilter\entryArgs.c" file="C:\GitKraken\prefixFilter\entryArgs.c" line="7"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:1623:valueFlowForward bailout: variable i valueFlowForward, assignment in condition" verbose="valueflow.cpp:1623:valueFlowForward bailout: variable i valueFlowForward, assignment in condition">
+            <location file0="C:\GitKraken\prefixFilter\entryArgs.c" file="C:\GitKraken\prefixFilter\entryArgs.c" line="19"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="createEntryArgs" lineNumber="6"/>
+    <functiondecl functionName="readEntryArgs" lineNumber="15"/>
+    <functiondecl functionName="modifyArgs" lineNumber="33"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="createEntryArgs"/>
+    <functioncall functionName="exit"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="inputFile"/>
+    <functioncall functionName="malloc"/>
+    <functioncall functionName="modifyArgs"/>
+    <functioncall functionName="outputFile"/>
+    <functioncall functionName="prefixesFile"/>
+    <functioncall functionName="puts"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="strcmp"/>
+    <functioncall functionName="strcpy"/>
+    <functioncall functionName="strlen"/>
+  </FileInfo>
+</analyzerinfo>

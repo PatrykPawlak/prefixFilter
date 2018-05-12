@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1333126164">
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:3219:valueFlowFunctionReturn bailout: function return; nontrivial function body" verbose="valueflow.cpp:3219:valueFlowFunctionReturn bailout: function return; nontrivial function body">
+            <location file0="C:\GitKraken\prefixFilter\entryArgsOperations.c" file="C:\GitKraken\prefixFilter\entryArgsOperations.c" line="32"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:3219:valueFlowFunctionReturn bailout: function return; nontrivial function body" verbose="valueflow.cpp:3219:valueFlowFunctionReturn bailout: function return; nontrivial function body">
+            <location file0="C:\GitKraken\prefixFilter\entryArgsOperations.c" file="C:\GitKraken\prefixFilter\entryArgsOperations.c" line="8"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:3219:valueFlowFunctionReturn bailout: function return; nontrivial function body" verbose="valueflow.cpp:3219:valueFlowFunctionReturn bailout: function return; nontrivial function body">
+            <location file0="C:\GitKraken\prefixFilter\entryArgsOperations.c" file="C:\GitKraken\prefixFilter\entryArgsOperations.h" line="7"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:1623:valueFlowForward bailout: variable i valueFlowForward, assignment in condition" verbose="valueflow.cpp:1623:valueFlowForward bailout: variable i valueFlowForward, assignment in condition">
+            <location file0="C:\GitKraken\prefixFilter\entryArgsOperations.c" file="C:\GitKraken\prefixFilter\entryArgsOperations.c" line="34"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="constructEntryArgs" lineNumber="8"/>
+    <functiondecl functionName="modifyEntryArgs" lineNumber="18"/>
+    <functiondecl functionName="readEntryArgs" lineNumber="31"/>
+    <functiondecl functionName="freeEntryArgs" lineNumber="60"/>
+    <functioncall functionName="args"/>
+    <functioncall functionName="char"/>
+    <functioncall functionName="checkFileExt"/>
+    <functioncall functionName="constructEntryArgs"/>
+    <functioncall functionName="displayHelp"/>
+    <functioncall functionName="fileName"/>
+    <functioncall functionName="flag"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="free"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="inputFile"/>
+    <functioncall functionName="malloc"/>
+    <functioncall functionName="modifyEntryArgs"/>
+    <functioncall functionName="outputFile"/>
+    <functioncall functionName="prefixesFile"/>
+    <functioncall functionName="realloc"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="strcmp"/>
+    <functioncall functionName="strcpy"/>
+    <functioncall functionName="strlen"/>
+  </FileInfo>
+</analyzerinfo>

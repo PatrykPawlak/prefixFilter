@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2204488780">
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:1085:valueFlowReverse bailout: assignment of prefixFile" verbose="valueflow.cpp:1085:valueFlowReverse bailout: assignment of prefixFile">
+            <location file0="C:\GitKraken\prefixFilter\filesOperations.c" file="C:\GitKraken\prefixFilter\filesOperations.c" line="4"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:1085:valueFlowReverse bailout: assignment of inputFile" verbose="valueflow.cpp:1085:valueFlowReverse bailout: assignment of inputFile">
+            <location file0="C:\GitKraken\prefixFilter\filesOperations.c" file="C:\GitKraken\prefixFilter\filesOperations.c" line="23"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:1333:valueFlowBeforeCondition bailout: variable tmpPrefixHead used in loop" verbose="valueflow.cpp:1333:valueFlowBeforeCondition bailout: variable tmpPrefixHead used in loop">
+            <location file0="C:\GitKraken\prefixFilter\filesOperations.c" file="C:\GitKraken\prefixFilter\filesOperations.c" line="35"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:1085:valueFlowReverse bailout: assignment of outputFile" verbose="valueflow.cpp:1085:valueFlowReverse bailout: assignment of outputFile">
+            <location file0="C:\GitKraken\prefixFilter\filesOperations.c" file="C:\GitKraken\prefixFilter\filesOperations.c" line="49"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:1333:valueFlowBeforeCondition bailout: variable tmp used in loop" verbose="valueflow.cpp:1333:valueFlowBeforeCondition bailout: variable tmp used in loop">
+            <location file0="C:\GitKraken\prefixFilter\filesOperations.c" file="C:\GitKraken\prefixFilter\filesOperations.c" line="56"/>
+        </error>
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:1836:valueFlowForward bailout: variable tmpStr is assigned in conditional code" verbose="valueflow.cpp:1836:valueFlowForward bailout: variable tmpStr is assigned in conditional code">
+            <location file0="C:\GitKraken\prefixFilter\filesOperations.c" file="C:\GitKraken\prefixFilter\filesOperations.c" line="30"/>
+        </error>
+        <error id="debug" severity="debug" msg="inconclusive leak of outputFile: ; alloc ; else dealloc ; }" verbose="inconclusive leak of outputFile: ; alloc ; else dealloc ; }">
+            <location file0="C:\GitKraken\prefixFilter\filesOperations.c" file="C:\GitKraken\prefixFilter\filesOperations.c" line="49"/>
+        </error>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="readPrefixFile" lineNumber="3"/>
+    <functiondecl functionName="readInputFile" lineNumber="22"/>
+    <functiondecl functionName="saveToOutputFile" lineNumber="48"/>
+    <functioncall functionName="addPrefixWithSort"/>
+    <functioncall functionName="addWordWithSort"/>
+    <functioncall functionName="buffer"/>
+    <functioncall functionName="checkBuffer"/>
+    <functioncall functionName="checkPrefix"/>
+    <functioncall functionName="constructPrefixNode"/>
+    <functioncall functionName="constructWordNode"/>
+    <functioncall functionName="deleteList"/>
+    <functioncall functionName="exit"/>
+    <functioncall functionName="fclose"/>
+    <functioncall functionName="feof"/>
+    <functioncall functionName="fileName"/>
+    <functioncall functionName="fopen"/>
+    <functioncall functionName="fprintf"/>
+    <functioncall functionName="fscanf"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="inputFile"/>
+    <functioncall functionName="next"/>
+    <functioncall functionName="node"/>
+    <functioncall functionName="outputFile"/>
+    <functioncall functionName="perror"/>
+    <functioncall functionName="prefix"/>
+    <functioncall functionName="prefixFile"/>
+    <functioncall functionName="printf"/>
+    <functioncall functionName="realloc"/>
+    <functioncall functionName="strcpy"/>
+    <functioncall functionName="strlen"/>
+    <functioncall functionName="tmpStr"/>
+    <functioncall functionName="while"/>
+    <functioncall functionName="word"/>
+    <functioncall functionName="wordListHead"/>
+  </FileInfo>
+</analyzerinfo>

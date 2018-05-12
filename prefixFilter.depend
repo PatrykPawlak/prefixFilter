@@ -1,0 +1,52 @@
+# depslib dependency file v1.0
+1526162559 source:c:\gitkraken\prefixfilter\main.c
+	"entryArgsOperations.h"
+	"otherFunctions.h"
+	"prefixesOperations.h"
+	"myStructures.h"
+	"filesOperations.h"
+
+1526158306 c:\gitkraken\prefixfilter\mystructures.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1525960368 source:c:\gitkraken\prefixfilter\mystructures.c
+
+1525963948 source:c:\gitkraken\prefixfilter\entryargs.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"myStructures.h"
+
+1526167398 source:c:\gitkraken\prefixfilter\otherfunctions.c
+	"otherFunctions.h"
+
+1526167527 c:\gitkraken\prefixfilter\otherfunctions.h
+	"myStructures.h"
+
+1526162545 source:c:\gitkraken\prefixfilter\entryargsoperations.c
+	"entryArgsOperations.h"
+
+1526162461 c:\gitkraken\prefixfilter\entryargsoperations.h
+	<ctype.h>
+	"otherFunctions.h"
+
+1526161090 source:c:\gitkraken\prefixfilter\prefixesoperations.c
+	"prefixesOperations.h"
+
+1526162155 c:\gitkraken\prefixfilter\prefixesoperations.h
+	"wordsOperations.h"
+
+1526167074 c:\gitkraken\prefixfilter\wordsoperations.h
+	"myStructures.h"
+
+1526150863 source:c:\gitkraken\prefixfilter\wordsoperations.c
+	"wordsOperations.h"
+
+1526166227 source:c:\gitkraken\prefixfilter\filesoperations.c
+	"filesOperations.h"
+
+1526162181 c:\gitkraken\prefixfilter\filesoperations.h
+	"prefixesOperations.h"
+

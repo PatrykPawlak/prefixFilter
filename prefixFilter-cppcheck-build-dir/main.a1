@@ -1,39 +1,23 @@
 <?xml version="1.0"?>
-<analyzerinfo checksum="3489773872">
-        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;inputFile&apos; used instead of size of its data." verbose="Size of pointer &apos;inputFile&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*inputFile)&apos;." cwe="467">
-            <location file0="C:\GitKraken\prefixFilter\main.c" file="C:\GitKraken\prefixFilter\main.c" line="25"/>
-        </error>
-        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;outputFile&apos; used instead of size of its data." verbose="Size of pointer &apos;outputFile&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*outputFile)&apos;." cwe="467">
-            <location file0="C:\GitKraken\prefixFilter\main.c" file="C:\GitKraken\prefixFilter\main.c" line="29"/>
-        </error>
-        <error id="pointerSize" severity="warning" msg="Size of pointer &apos;prefixesFile&apos; used instead of size of its data." verbose="Size of pointer &apos;prefixesFile&apos; used instead of size of its data. This is likely to lead to a buffer overflow. You probably intend to write &apos;sizeof(*prefixesFile)&apos;." cwe="467">
-            <location file0="C:\GitKraken\prefixFilter\main.c" file="C:\GitKraken\prefixFilter\main.c" line="33"/>
-        </error>
-        <error id="unreadVariable" severity="style" msg="Variable &apos;boolReadEntryArguments&apos; is assigned a value that is never used." verbose="Variable &apos;boolReadEntryArguments&apos; is assigned a value that is never used." cwe="563">
-            <location file0="C:\GitKraken\prefixFilter\main.c" file="C:\GitKraken\prefixFilter\main.c" line="48"/>
+<analyzerinfo checksum="3565725182">
+        <error id="valueFlowBailout" severity="debug" msg="valueflow.cpp:2092:valueFlowForward bailout: Taking address of head" verbose="valueflow.cpp:2092:valueFlowForward bailout: Taking address of head">
+            <location file0="C:\GitKraken\prefixFilter\main.c" file="C:\GitKraken\prefixFilter\main.c" line="10"/>
         </error>
   <FileInfo check="CheckUnusedFunctions">
-    <functiondecl functionName="help" lineNumber="11"/>
-    <functiondecl functionName="readEntryArguments" lineNumber="18"/>
-    <functiondecl functionName="main" lineNumber="45"/>
-    <functioncall functionName="INPUT_FILE_PREFIX"/>
-    <functioncall functionName="OUTPUT_FILE_PREFIX"/>
-    <functioncall functionName="PREFIXES_FILE_PREFIX"/>
+    <functiondecl functionName="main" lineNumber="7"/>
+    <functioncall functionName="NULL"/>
     <functioncall functionName="argc"/>
     <functioncall functionName="args"/>
     <functioncall functionName="argv"/>
-    <functioncall functionName="for"/>
-    <functioncall functionName="i"/>
-    <functioncall functionName="if"/>
+    <functioncall functionName="deleteList"/>
+    <functioncall functionName="freeEntryArgs"/>
+    <functioncall functionName="head"/>
     <functioncall functionName="inputFile"/>
-    <functioncall functionName="malloc"/>
     <functioncall functionName="outputFile"/>
     <functioncall functionName="prefixesFile"/>
-    <functioncall functionName="printf"/>
-    <functioncall functionName="readEntryArguments"/>
-    <functioncall functionName="sizeof"/>
-    <functioncall functionName="strcmp"/>
-    <functioncall functionName="strcpy"/>
-    <functioncall functionName="strlen"/>
+    <functioncall functionName="readEntryArgs"/>
+    <functioncall functionName="readInputFile"/>
+    <functioncall functionName="readPrefixFile"/>
+    <functioncall functionName="saveToOutputFile"/>
   </FileInfo>
 </analyzerinfo>

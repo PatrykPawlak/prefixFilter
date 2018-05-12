@@ -1,1 +1,7 @@
+entryArgsOperations.a1::C:/GitKraken/prefixFilter/entryArgsOperations.c
+filesOperations.a1::C:/GitKraken/prefixFilter/filesOperations.c
 main.a1::C:/GitKraken/prefixFilter/main.c
+myStructures.a1::C:/GitKraken/prefixFilter/myStructures.c
+otherFunctions.a1::C:/GitKraken/prefixFilter/otherFunctions.c
+prefixesOperations.a1::C:/GitKraken/prefixFilter/prefixesOperations.c
+wordsOperations.a1::C:/GitKraken/prefixFilter/wordsOperations.c
